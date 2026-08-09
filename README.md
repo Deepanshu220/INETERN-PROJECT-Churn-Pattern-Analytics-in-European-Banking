@@ -1,4 +1,5 @@
-**Background and Context**
+# Background and Context
+
 Customer churn represents one of the largest hidden costs in retail banking. Losing existing customers leads to:
 
 • Reduced lifetime value
@@ -17,7 +18,7 @@ While banks often track churn rates, they lack granular segmentation insights ne
 
 This project addresses these gaps through systematic segmentation-driven analytics.
 
-**Problem Statement**
+# Problem Statement
 
 Despite having rich customer-level data, banks face challenges in:
 
