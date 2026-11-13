@@ -1,47 +1,47 @@
-# Background and Context
+# 🏦 European Bank — Customer Segmentation & Churn Analytics
 
-Customer churn represents one of the largest hidden costs in retail banking. Losing existing customers leads to:
+## 📌 Project Overview
+This project analyses customer churn patterns across 10,000 European banking customers from France, Germany, and Spain. Built as part of a Financial Analyst Internship project for the European Central Bank.
 
-• Reduced lifetime value
+## 🔗 Live Dashboard
+👉 [Click here to view the live dashboard](https://churn-pattern-analyticss.streamlit.app/)
 
-• Increased acquisition costs
+## 📊 Key Findings
+- Overall churn rate: **20.4%**
+- Germany has the highest churn at **32.4%** — double France and Spain
+- Age group 46–60 churns at **51.1%** — highest of all segments
+- Inactive members churn **88% more** than active members
+- Customers with 3+ products churn at **82–100%**
 
-• Revenue instability
+## 🗂️ Project Structure
+| File | Description |
+|---|---|
+| `app.py` | Main Streamlit dashboard code |
+| `European_Bank__1_.csv` | Dataset with 10,000 customer records |
+| `requirements.txt` | Python libraries needed |
 
-While banks often track churn rates, they lack granular segmentation insights needed to answer:
+## 📁 Dataset Description
+| Column | Description |
+|---|---|
+| CustomerId | Unique customer identifier |
+| Geography | France, Spain, Germany |
+| Gender | Male / Female |
+| Age | Customer age |
+| Tenure | Years with the bank |
+| Balance | Account balance |
+| NumOfProducts | Number of bank products |
+| IsActiveMember | Activity indicator |
+| Exited | Churn indicator (1 = Churned) |
 
-• Which customer groups are most likely to churn?
+## 🔍 Dashboard Sections
+- **Overview** — Overall churn summary and KPI cards
+- **Geography** — Country wise churn comparison
+- **Demographics** — Age, gender and tenure patterns
+- **Financial Profile** — Balance, credit score and product analysis
+- **High Value Customers** — Premium customer churn explorer
 
-• How churn differs across countries, age groups, and financial profile
-
-• Whether churn is concentrated among high-value or low-value customers
-
-This project addresses these gaps through systematic segmentation-driven analytics.
-
-# Problem Statement
-
-Despite having rich customer-level data, banks face challenges in:
-
-• Identifying high-risk customer segments
-
-• Understanding churn differences by geography and demographics
-
-• Quantifying the financial profile of churned customers
-
-Without structured analytics, churn management strategies remain generic, reactive, and inefficient.
-
-# Project Objectives
-
-• Measure overall churn rate
-
-• Identify churn distribution across customer segments
-
-• Compare churn behavior across European regions
-
-# Secondary Objectives
-
-• Understand churn among high-value customers
-
-• Evaluate engagement and tenure patterns
-
-• Support strategic planning and marketing decisions
+## 🛠️ Technologies Used
+- Python
+- Streamlit
+- Pandas
+- Plotly
